@@ -25,7 +25,9 @@ st.set_page_config(
 )
 
 # CSS customizado para melhorar o visual
-st.markdown("""
+# Mover para depois de verificar se está rodando
+try:
+    st.markdown("""
 <style>
     /* Importar fonte moderna */
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
