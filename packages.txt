@@ -1,0 +1,4 @@
+# Arquivo opcional para Streamlit Cloud
+# Se necessário, pode especificar pacotes adicionais aqui
+# Mas o requirements.txt já cobre tudo
+

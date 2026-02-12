@@ -1,9 +1,9 @@
 [server]
-headless = false
+headless = true
 port = 8501
 enableCORS = false
 enableXsrfProtection = true
-runOnSave = true
+runOnSave = false
 
 [theme]
 primaryColor = "#1f77b4"
@@ -18,3 +18,6 @@ magicEnabled = true
 
 [browser]
 gatherUsageStats = false
+
+[logger]
+level = "info"
