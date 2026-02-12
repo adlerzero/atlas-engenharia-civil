@@ -1,0 +1,15 @@
+# NOTA: packages.txt não é necessário
+
+O Streamlit Cloud usa apenas `requirements.txt` para dependências Python.
+
+Se você precisar instalar pacotes do sistema (apt), crie um arquivo `packages.txt`
+com APENAS nomes de pacotes, um por linha, SEM comentários.
+
+Exemplo válido:
+```
+libgomp1
+libgfortran5
+```
+
+Mas para este projeto, não é necessário - todas as dependências estão no requirements.txt.
+
